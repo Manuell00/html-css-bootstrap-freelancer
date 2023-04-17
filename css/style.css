@@ -205,6 +205,26 @@ footer{
 
 
 /* MEDIA QUERIES */
+@media screen and (max-width:1200px) {
+    h2{
+        font-size: 40px;
+    }
+    
+    h3{
+        font-size: 30px;
+    }
+}
+
+
+
+@media screen and (max-width:765px) {
+    footer [class*="col-"]{
+        margin: 20px 0;
+    }
+}
+
+
+
 @media screen and (max-width:650px) {
     #navbar-menu{
         display: none;
@@ -225,20 +245,18 @@ footer{
     }
 }
 
-
-@media screen and (max-width:765px) {
-    footer [class*="col-"]{
-        margin: 20px 0;
-    }
-}
-
-
-@media screen and (max-width:1200px) {
+@media screen and (max-width:500px) {
     h2{
-        font-size: 40px;
+        font-size: 25px;
     }
     
     h3{
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    #main-start-works{
+        font-size: 15px;
     }
 }
+
+
