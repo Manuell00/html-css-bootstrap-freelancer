@@ -30,14 +30,11 @@ ul li{
     height: 100%;
 }
 
-#navbar-menu{
-    height: 100%;
+#navbar-menu-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 5px;
-    padding: 0;
-    margin: 0;
 }
 
 #menu-symbol{
@@ -56,8 +53,8 @@ ul li{
 }
 
 #main-start-image{
-    height: 180px;
-    width: 180px;
+    height: 200px;
+    width: 200px;
 }
 
 
@@ -121,7 +118,7 @@ ul li{
 
 
 /* MEDIA QUERIES */
-@media screen and (max-width:560px) {
+@media screen and (max-width:650px) {
     #navbar-menu{
         display: none;
     }
