@@ -41,11 +41,8 @@ ul li{
 }
 
 /* MAIN */
-
-
 /* Inserisco lo stile per il main-start */
 #main-start{
-    height: 300px;
     background-color: lightseagreen;
 }
 
@@ -64,7 +61,6 @@ ul li{
 
 /* Inserisco lo stile per il main-portfolio */
 #main-porfolio{
-    height: 300px;
     background-color:orange;
 }
 
@@ -81,7 +77,6 @@ ul li{
 
 /* Inserisco lo stile per il main-about */
 #main-about{
-    height: 300px;
     background-color:lightseagreen;
 }
 
@@ -92,7 +87,6 @@ ul li{
 
 /* Inserisco lo stile per il main-contact-me */
 #main-contact-me{
-    height: 400px;
     background-color:orange;
 }
 
@@ -100,9 +94,10 @@ ul li{
     padding: 20px 0;
 }
 
+
+/* FOOTER */
 /* Inserisco lo stile per il footer */
 #footer{
-    height: 300px;
     background-color:darkslategray;
 }
 
