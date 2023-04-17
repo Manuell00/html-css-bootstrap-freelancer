@@ -5,18 +5,19 @@
     box-sizing: border-box;
 }
 
-[class*="col"]{
+/* [class*="col"]{
     background-color: blueviolet;
     border: 2px solid black;
-}
-
-ul li{
-    list-style-type: none;
-}
+} */
 
 .line-white{
-    height: 7px;
+    height: 4px;
     background-color: white;
+    border-radius: 10px;
+}
+.line-black{
+    height: 7px;
+    background-color: black;
 }
 
 .fa-star{
@@ -24,15 +25,22 @@ ul li{
     color: white;
 }
 
+#black{
+    color: black;
+}
+
 /* HEADER */
 /* Inserisco lo stile dell'header */
 
 #navbar{
+    font-size: 22px;
+    color: white;
     background-color:darkslategray;
     height: 80px;
 }
 
 #navbar-items{
+    font-weight: 700;
     height: 100%;
 }
 
@@ -44,7 +52,7 @@ ul li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5px;
+    font-size: 15px;
 }
 
 #menu-symbol{
@@ -53,32 +61,40 @@ ul li{
 
 
 /* MAIN */
-/* Inserisco lo stile per il main-start */
+/* Inserisco lo stile per il MAIN-START */
 #main-start{
     background-color: lightseagreen;
 }
 
-#main-start-container >.row{
-    padding: 20px 0;
+#main-start h2{
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
 }
 
 #main-start-image{
-    height: 200px;
-    width: 200px;
+    height: 230px;
+    width: 230px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#main-start-works{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: white;
 }
 
 
-/* Inserisco lo stile per il main-portfolio */
-#main-porfolio{
-    background-color:orange;
-}
-
+/* Inserisco lo stile per il MAIN-PORTFOLIO */
 #main-portfolio-container >.row{
     padding: 20px 0;
 }
 
 .main-portfolio-image{
-    height: 180px;
+    height: 250px;
+    margin-bottom: 10px;
 }
 
 .main-portfolio-image img{
@@ -103,12 +119,13 @@ ul li{
     text-align: left;
 }
 
-
-/* Inserisco lo stile per il main-contact-me */
-#main-contact-me{
-    background-color:orange;
+#about-container-button{
+    text-align: center;
+    margin-bottom:40px ;
 }
 
+
+/* Inserisco lo stile per il main-contact-me */
 #main-contact-me-container >.row{
     padding: 20px 0;
 }
