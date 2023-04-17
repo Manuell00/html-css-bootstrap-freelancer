@@ -153,15 +153,35 @@ h3{
     border-bottom: var(--bs-border-width) solid var(--bs-border-color);
 }
 
+.btn-primary{
+    background-color:lightseagreen ;
+}
+
+#contact-me-button-container{
+    display: flex;
+    align-items: flex-start;
+}
 
 /* FOOTER */
 /* Inserisco lo stile per il footer */
+footer{
+    color: white;
+}
+
 #footer{
     background-color:darkslategray;
 }
 
-#footer-container >.row{
-    padding: 20px 0;
+#footer-end{
+    background-color:rgb(21, 35, 35);
+}
+
+#footer-container{
+    padding: 40px 0;
+}
+
+#footer-end-container{
+    padding: 40px 0;
 }
 
 
