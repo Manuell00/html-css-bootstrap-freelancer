@@ -23,6 +23,7 @@ h3{
 .line-black{
     height: 4px;
     background-color: black;
+    border-radius: 10px;
 }
 
 .fa-star{
@@ -86,7 +87,7 @@ h3{
 }
 
 #main-start-works{
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 20px;
     font-weight: 300;
     color: white;
@@ -140,6 +141,7 @@ h3{
 #about-container-button{
     text-align: center;
     margin-bottom:50px ;
+    margin-top:20px ;
 }
 
 
@@ -181,9 +183,24 @@ footer{
 }
 
 #footer-end-container{
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
+#green-footer{
+    color: lightseagreen;
+}
+
+.fa-facebook, .fa-google, .fa-twitter, .fa-linkedin{
+    padding: 12px;
+    border-radius: 50%;
+    border:1px solid white ;
+    margin: 3px;
+}
+
+#minusc-footer{
+    font-size: 9px;
+    text-align: center;
+}
 
 
 
@@ -197,5 +214,31 @@ footer{
     }
     #menu-symbol{
         display: block;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:765px) {
+    footer [class*="col-"]{
+        margin: 20px 0;
+    }
+}
+
+
+@media screen and (max-width:1200px) {
+    h2{
+        font-size: 40px;
+    }
+    
+    h3{
+        font-size: 30px;
     }
 }
