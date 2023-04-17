@@ -92,6 +92,10 @@ ul li{
     padding: 20px 0;
 }
 
+#main-about p{
+    text-align: left;
+}
+
 
 /* Inserisco lo stile per il main-contact-me */
 #main-contact-me{
