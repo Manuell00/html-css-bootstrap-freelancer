@@ -4,3 +4,38 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+[class*="col"]{
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+/* HEADER */
+/* Inserisco lo stile dell'header */
+
+#navbar{
+    background-color: cadetblue;
+    height: 80px;
+}
+
+#navbar-items{
+    height: 100%;
+}
+
+#navbar-items>.row{
+    height: 100%;
+}
+
+.menu{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 0;
+    margin: 0;
+}
