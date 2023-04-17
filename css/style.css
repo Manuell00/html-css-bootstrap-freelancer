@@ -14,6 +14,16 @@ ul li{
     list-style-type: none;
 }
 
+.line-white{
+    height: 7px;
+    background-color: white;
+}
+
+.fa-star{
+    font-size: 20px;
+    color: white;
+}
+
 /* HEADER */
 /* Inserisco lo stile dell'header */
 
